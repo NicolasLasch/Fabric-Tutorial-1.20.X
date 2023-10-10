@@ -1,0 +1,40 @@
+{
+  "item.tutorialmod.ruby": "Ruby",
+  "item.tutorialmod.raw_ruby": "Raw Ruby",
+  "item.tutorialmod.raw_malachite": "Raw Malachite",
+  "item.tutorialmod.malachite": "Malachite",
+
+  "block.tutorialmod.ruby_block": "Block of Ruby",
+  "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
+  "block.tutorialmod.malachite_block": "Block of Malachite",
+  "block.tutorialmod.raw_malachite_block": "Block of Raw Malachite",
+  "block.tutorialmod.ruby_ore": "Ruby Ore",
+  "block.tutorialmod.malachite_ore": "Malachite Ore",
+
+
+  "item.tutorialmod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.tutorialmod.ruby_axe": "Ruby Axe",
+  "item.tutorialmod.ruby_shovel": "Ruby Shovel",
+  "item.tutorialmod.ruby_sword": "Ruby Sword",
+  "item.tutorialmod.ruby_hoe": "Ruby Hoe",
+
+  "item.tutorialmod.malachite_pickaxe": "Malachite Pickaxe",
+  "item.tutorialmod.malachite_axe": "Malachite Axe",
+  "item.tutorialmod.malachite_shovel": "Malachite Shovel",
+  "item.tutorialmod.malachite_sword": "Malachite Sword",
+  "item.tutorialmod.malachite_hoe": "Malachite Hoe",
+
+  "item.tutorialmod.ruby_helmet": "Ruby Helmet",
+  "item.tutorialmod.ruby_chestplate": "Ruby Chestplate",
+  "item.tutorialmod.ruby_leggings": "Ruby Leggings",
+  "item.tutorialmod.ruby_boots": "Ruby Boots",
+  "item.tutorialmod.porcupine_spawn_egg": "Porcupine Spawn Egg",
+  "item.tutorialmod.malachite_helmet": "Malachite Helmet",
+  "item.tutorialmod.malachite_chestplate": "Malachite Chestplate",
+  "item.tutorialmod.malachite_leggings": "Malachite Leggings",
+  "item.tutorialmod.malachite_boots": "Malachite Boots",
+
+  "item.tutorialmod.soap_water_bucket": "Soap Water Bucket",
+  "item.tutorialmod.fairy_water_bucket": "Fairy Water Bucket",
+  "itemgroup.custom": "Custom Items"
+}

@@ -1,0 +1,5 @@
+// 1.20.1	2023-10-10T17:27:56.291938	Tutorial Mod/Block Loot Tables
+2654a599394248d10a6cf90c30786c74878f1743 data/tutorialmod/loot_tables/blocks/malachite_ore.json
+e10b58ff9a7f9df85b67b7807d5ae423e7a759f8 data/tutorialmod/loot_tables/blocks/ruby_block.json
+6cbee860a058aff1471e8886d74965f5a072e318 data/tutorialmod/loot_tables/blocks/raw_ruby_block.json
+598f44ec9f46bad14d5fdeec519b8c1a5834892f data/tutorialmod/loot_tables/blocks/ruby_ore.json

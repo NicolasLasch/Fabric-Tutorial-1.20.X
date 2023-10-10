@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:ruby_helmet",
+    "tutorialmod:ruby_chestplate",
+    "tutorialmod:ruby_leggings",
+    "tutorialmod:ruby_boots",
+    "tutorialmod:malachite_helmet",
+    "tutorialmod:malachite_chestplate",
+    "tutorialmod:malachite_leggings",
+    "tutorialmod:malachite_boots"
+  ]
+}

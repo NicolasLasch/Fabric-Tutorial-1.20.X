@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_malachite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tutorialmod:raw_malachite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:malachite_from_blasting_raw_malachite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_malachite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:malachite_from_blasting_raw_malachite"
+    ]
+  },
+  "sends_telemetry_event": false
+}

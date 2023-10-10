@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:raw_ruby_block",
+    "tutorialmod:ruby_block",
+    "tutorialmod:ruby_ore",
+    "tutorialmod:raw_malachite_block",
+    "tutorialmod:malachite_block",
+    "tutorialmod:malachite_ore"
+  ]
+}
