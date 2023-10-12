@@ -23,6 +23,7 @@ class ModModelProvider(output: FabricDataOutput?) : FabricModelProvider(output) 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MALACHITE_BLOCK)
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MALACHITE_ORE)
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_MALACHITE_BLOCK)
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GEM_EMPOWERING_STATION);
     }
 
     override fun generateItemModels(itemModelGenerator: ItemModelGenerator) {
@@ -51,5 +52,6 @@ class ModModelProvider(output: FabricDataOutput?) : FabricModelProvider(output) 
         itemModelGenerator.register(ModItems.PORCUPINE_SPAWN_EGG, Model(Optional.of(Identifier("item/template_spawn_egg")), Optional.empty()))
         itemModelGenerator.register(ModFluids.SOAP_WATER_BUCKET, Models.GENERATED)
         itemModelGenerator.register(ModFluids.FAIRY_WATER_BUCKET, Models.GENERATED)
+
     }
 }

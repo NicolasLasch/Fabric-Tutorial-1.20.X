@@ -1,6 +1,7 @@
 package be.thespattt.tutorialmod.block
 
 import be.thespattt.tutorialmod.TutorialMod
+import be.thespattt.tutorialmod.block.custom.GemEmpoweringStationBlock
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.fabricmc.fabric.api.`object`.builder.v1.block.FabricBlockSettings
 import net.minecraft.block.Block
@@ -22,7 +23,7 @@ object ModBlocks {
     val RAW_MALACHITE_BLOCK: Block = registerBlock("raw_malachite_block", Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(1.2f).sounds(BlockSoundGroup.AMETHYST_BLOCK)))
     val RUBY_ORE: Block = registerBlock("ruby_ore", ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 5)))
     val MALACHITE_ORE: Block = registerBlock("malachite_ore", ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 5)))
-
+    val GEM_EMPOWERING_STATION = registerBlock("gem_empowering_station", GemEmpoweringStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()))
     private fun registerBlock(name: String, block: Block): Block {
         registerBlockItem(name, block)
         return Registry.register(Registries.BLOCK, Identifier(TutorialMod.MOD_ID, name), block)

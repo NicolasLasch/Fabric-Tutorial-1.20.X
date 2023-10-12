@@ -36,5 +36,6 @@
 
   "item.tutorialmod.soap_water_bucket": "Soap Water Bucket",
   "item.tutorialmod.fairy_water_bucket": "Fairy Water Bucket",
-  "itemgroup.custom": "Custom Items"
+  "itemgroup.custom": "Custom Items",
+  "block.tutorialmod.gem_empowering_station": "Gem Empowering Station"
 }

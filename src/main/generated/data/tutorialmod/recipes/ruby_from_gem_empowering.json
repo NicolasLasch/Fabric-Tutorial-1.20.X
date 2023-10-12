@@ -1,0 +1,12 @@
+{
+  "type": "tutorialmod:gem_empowering",
+  "ingredients": [
+    {
+      "item": "tutorialmod:raw_ruby"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "tutorialmod:ruby"
+  }
+}

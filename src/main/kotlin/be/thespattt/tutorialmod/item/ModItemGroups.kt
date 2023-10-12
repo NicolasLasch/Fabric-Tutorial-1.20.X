@@ -53,6 +53,7 @@ object ModItemGroups {
                 entries.add(ModItems.PORCUPINE_SPAWN_EGG)
                 entries.add(ModFluids.SOAP_WATER_BUCKET)
                 entries.add(ModFluids.FAIRY_WATER_BUCKET)
+                entries.add(ModBlocks.GEM_EMPOWERING_STATION)
             }.build()
     )
     fun registerItemGroups() {

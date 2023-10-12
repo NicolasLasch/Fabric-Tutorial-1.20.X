@@ -2,6 +2,7 @@ package be.thespattt.tutorialmod.datagen
 
 
 import be.thespattt.tutorialmod.block.ModBlocks
+import be.thespattt.tutorialmod.datagen.recipe.GemEmpoweringRecipeBuilder
 import be.thespattt.tutorialmod.item.ModItems
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider
@@ -190,6 +191,14 @@ class ModRecipeProvider(output: FabricDataOutput?) : FabricRecipeProvider(output
             .input('R', ModItems.MALACHITE)
             .criterion(hasItem(ModItems.MALACHITE), conditionsFromItem(ModItems.MALACHITE))
             .offerTo(exporter, Identifier(getRecipeName(ModItems.MALACHITE_BOOTS)))
+
+        //CUSTOM ENTITIES CRAFT
+        GemEmpoweringRecipeBuilder(ModItems.RAW_MALACHITE, ModItems.MALACHITE, 2)
+            .criterion(hasItem(ModItems.RAW_MALACHITE), conditionsFromItem(ModItems.RAW_MALACHITE))
+            .offerTo(exporter)
+        GemEmpoweringRecipeBuilder(ModItems.RAW_RUBY, ModItems.RUBY, 2)
+            .criterion(hasItem(ModItems.RAW_RUBY), conditionsFromItem(ModItems.RAW_RUBY))
+            .offerTo(exporter)
     }
 
     companion object {
